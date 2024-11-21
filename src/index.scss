@@ -1,0 +1,27 @@
+$primary-color: #333;
+$background-color: #f4f4f9;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $background-color;
+  color: $primary-color;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h3 {
+  color: $primary-color;
+}
+
+.recipe-details {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
